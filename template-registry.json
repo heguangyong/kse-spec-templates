@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0",
-  "last_updated": "2025-01-31",
+  "version": "1.1.0",
+  "last_updated": "2026-02-11",
   "templates": [
     {
       "id": "web-features/rest-api",
@@ -67,6 +67,72 @@
       "author": "kse-team",
       "created_at": "2025-01-31",
       "updated_at": "2025-01-31"
+    },
+    {
+      "id": "backend-features/pure-restful-backend",
+      "name": "Pure RESTful Backend",
+      "category": "backend-features",
+      "description": "Template for building pure RESTful backend APIs with embedded Jetty, modular architecture, and comprehensive testing",
+      "difficulty": "advanced",
+      "tags": ["rest", "api", "backend", "jetty", "java", "modular-architecture"],
+      "applicable_scenarios": [
+        "Building REST API backend from scratch",
+        "Modernizing legacy backend to pure REST architecture",
+        "Creating embedded Jetty-based microservices",
+        "Implementing modular backend with clean separation of concerns"
+      ],
+      "files": [
+        "requirements.md",
+        "design.md",
+        "tasks.md"
+      ],
+      "author": "FallingAKS",
+      "created_at": "2026-02-10",
+      "updated_at": "2026-02-10"
+    },
+    {
+      "id": "architecture/architecture-design",
+      "name": "Architecture Design",
+      "category": "architecture",
+      "description": "Template for comprehensive architecture design including component decomposition, data flow, and technology selection",
+      "difficulty": "advanced",
+      "tags": ["architecture", "design", "system-design", "components", "data-flow"],
+      "applicable_scenarios": [
+        "Designing new system architecture",
+        "Restructuring existing application architecture",
+        "Planning microservices decomposition",
+        "Evaluating technology stack decisions"
+      ],
+      "files": [
+        "requirements.md",
+        "design.md",
+        "tasks.md"
+      ],
+      "author": "FallingAKS",
+      "created_at": "2026-02-10",
+      "updated_at": "2026-02-10"
+    },
+    {
+      "id": "quality/phase2-quality-debt-closure",
+      "name": "Quality Debt Closure",
+      "category": "quality",
+      "description": "Template for systematic quality debt closure including test coverage improvement, code quality metrics, and technical debt reduction",
+      "difficulty": "intermediate",
+      "tags": ["quality", "testing", "coverage", "technical-debt", "refactoring"],
+      "applicable_scenarios": [
+        "Improving test coverage systematically",
+        "Closing technical debt in phases",
+        "Establishing quality metrics and gates",
+        "Planning quality improvement sprints"
+      ],
+      "files": [
+        "requirements.md",
+        "design.md",
+        "tasks.md"
+      ],
+      "author": "FallingAKS",
+      "created_at": "2026-02-10",
+      "updated_at": "2026-02-10"
     }
   ]
 }
