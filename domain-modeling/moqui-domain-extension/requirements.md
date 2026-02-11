@@ -208,6 +208,13 @@ This Spec extends Moqui's existing data model and REST API services to support {
 
 ## Non-Functional Requirements
 
+### Same-Domain Language Consistency (同域语言一致性)
+1. Within the same business domain, all backend services SHALL use the same implementation language as the project's existing technology stack
+2. If the project is based on Moqui/Java, all domain extension services SHALL be implemented in Java
+3. Cross-language service integration (e.g., Java + Python) SHALL only be used for completely independent business domains that communicate asynchronously (e.g., message queues) and do NOT require strong transactional consistency
+4. The rationale: within a single process/language, database transactions provide native ACID guarantees; cross-language services require distributed transaction patterns (Saga, eventual consistency) which add significant complexity and risk
+5. If the project requires AI/ML capabilities typically implemented in Python, those SHALL be isolated as independent microservices communicating via async messaging, NOT as part of the core business domain transaction flow
+
 ### Moqui Compatibility
 1. All new entities SHALL follow Moqui Entity XML definition format
 2. All new services SHALL be registered in Moqui's service definition files

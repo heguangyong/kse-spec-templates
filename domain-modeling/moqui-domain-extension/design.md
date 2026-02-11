@@ -314,6 +314,9 @@ backend/runtime/component/{{COMPONENT_NAME}}/
 ### Property 4: Status Flow Validity
 **For all** entities with status fields, **the** status transitions SHALL follow the defined StatusFlowTransition rules.
 
+### Property 5: Same-Domain Language Consistency
+**For all** new services within the same business domain, **they** SHALL be implemented in the same language as the existing project stack (Java for Moqui projects). Cross-language integration SHALL only exist between independent domains via async messaging.
+
 ## Testing Strategy
 
 - **Integration Tests**: Verify generic CRUD API works for new entities, verify service invocation for new services

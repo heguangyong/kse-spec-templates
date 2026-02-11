@@ -131,6 +131,11 @@ This Spec defines the domain model and business requirements for {{SPEC_NAME_TIT
 
 ## Non-Functional Requirements
 
+### Same-Domain Language Consistency (同域语言一致性)
+1. Within the same business domain, all backend services SHALL use the same implementation language
+2. Cross-language service integration SHALL only be used for completely independent business domains that communicate asynchronously and do NOT require strong transactional consistency
+3. The rationale: single-language/single-process services benefit from native ACID transactions; cross-language services require distributed transaction patterns (Saga, eventual consistency) adding significant complexity
+
 ### Data Integrity
 1. All entity relationships SHALL enforce referential integrity via foreign keys
 2. Soft delete SHALL be used for all domain entities (deletedAt timestamp)
