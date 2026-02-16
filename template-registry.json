@@ -664,6 +664,118 @@
       "author": "FallingAKS",
       "created_at": "2026-02-16",
       "updated_at": "2026-02-16"
+    },
+    {
+      "id": "backend-features/domain-depth-gap-closure",
+      "name": "Domain Depth Gap Closure",
+      "category": "backend-features",
+      "description": "Template for domain depth capability gap closure with prioritized backlog execution",
+      "difficulty": "advanced",
+      "tags": [
+        "domain",
+        "depth",
+        "gap",
+        "closure",
+        "moqui",
+        "domain-depth-gap-closure"
+      ],
+      "applicable_scenarios": [
+        "Close domain-level depth gaps after baseline parity is established",
+        "Drive prioritized P0/P1 backlog execution with capability traceability",
+        "Converge domain closure into auditable acceptance evidence"
+      ],
+      "files": [
+        "requirements.md",
+        "design.md",
+        "tasks.md"
+      ],
+      "author": "FallingAKS",
+      "created_at": "2026-02-16",
+      "updated_at": "2026-02-16"
+    },
+    {
+      "id": "backend-features/cross-domain-e2e-flow-closure",
+      "name": "Cross Domain E2E Flow Closure",
+      "category": "backend-features",
+      "description": "Template for cross-domain end-to-end flow closure and evidence-driven scenario validation",
+      "difficulty": "advanced",
+      "tags": [
+        "cross-domain",
+        "e2e",
+        "flow",
+        "closure",
+        "validation",
+        "cross-domain-e2e-flow-closure"
+      ],
+      "applicable_scenarios": [
+        "Validate and close multi-domain end-to-end business flows",
+        "Build scenario catalog, datasets, and execution evidence",
+        "Track flow blockers and converge remediation batches"
+      ],
+      "files": [
+        "requirements.md",
+        "design.md",
+        "tasks.md"
+      ],
+      "author": "FallingAKS",
+      "created_at": "2026-02-16",
+      "updated_at": "2026-02-16"
+    },
+    {
+      "id": "backend-features/platform-ops-governance-closure",
+      "name": "Platform Ops Governance Closure",
+      "category": "backend-features",
+      "description": "Template for platform, operations, and governance capability closure with runbook evidence",
+      "difficulty": "advanced",
+      "tags": [
+        "platform",
+        "ops",
+        "governance",
+        "runbook",
+        "closure",
+        "platform-ops-governance-closure"
+      ],
+      "applicable_scenarios": [
+        "Close platform governance gaps including deployment and observability",
+        "Produce operation runbooks and diagnostics baselines",
+        "Converge reliability and compliance controls into acceptance evidence"
+      ],
+      "files": [
+        "requirements.md",
+        "design.md",
+        "tasks.md"
+      ],
+      "author": "FallingAKS",
+      "created_at": "2026-02-16",
+      "updated_at": "2026-02-16"
+    },
+    {
+      "id": "backend-features/spec-template-productization",
+      "name": "Spec Template Productization",
+      "category": "backend-features",
+      "description": "Template for productizing completed specs into reusable and discoverable template assets",
+      "difficulty": "advanced",
+      "tags": [
+        "spec",
+        "template",
+        "productization",
+        "reuse",
+        "governance",
+        "spec-template-productization"
+      ],
+      "applicable_scenarios": [
+        "Convert completed specs into reusable organizational templates",
+        "Standardize template structure, discoverability, and usage guides",
+        "Publish template assets with verification and evidence tracking"
+      ],
+      "files": [
+        "requirements.md",
+        "design.md",
+        "tasks.md"
+      ],
+      "author": "FallingAKS",
+      "created_at": "2026-02-16",
+      "updated_at": "2026-02-16"
     }
   ]
 }
