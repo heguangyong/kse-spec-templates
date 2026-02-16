@@ -1,235 +1,613 @@
-﻿{
-    "version":  "1.3.0",
-    "last_updated":  "2026-02-11",
-    "templates":  [
-                      {
-                          "id":  "web-features/rest-api",
-                          "name":  "REST API Feature",
-                          "category":  "web-features",
-                          "description":  "Template for creating RESTful API endpoints with proper validation, error handling, and documentation",
-                          "difficulty":  "intermediate",
-                          "tags":  [
-                                       "api",
-                                       "rest",
-                                       "backend",
-                                       "http",
-                                       "validation"
-                                   ],
-                          "applicable_scenarios":  [
-                                                       "Creating new API endpoints",
-                                                       "Implementing CRUD operations",
-                                                       "Building microservices",
-                                                       "Adding authentication to APIs"
-                                                   ],
-                          "files":  [
-                                        "requirements.md",
-                                        "design.md",
-                                        "tasks.md"
-                                    ],
-                          "author":  "kse-team",
-                          "created_at":  "2025-01-30",
-                          "updated_at":  "2025-01-30"
-                      },
-                      {
-                          "id":  "web-features/graphql-api",
-                          "name":  "GraphQL API Feature",
-                          "category":  "web-features",
-                          "description":  "Template for creating GraphQL API with schema, resolvers, and proper error handling",
-                          "difficulty":  "intermediate",
-                          "tags":  [
-                                       "api",
-                                       "graphql",
-                                       "backend",
-                                       "schema",
-                                       "resolvers"
-                                   ],
-                          "applicable_scenarios":  [
-                                                       "Creating GraphQL APIs",
-                                                       "Implementing flexible data queries",
-                                                       "Building real-time applications",
-                                                       "Replacing REST APIs with GraphQL"
-                                                   ],
-                          "files":  [
-                                        "requirements.md",
-                                        "design.md",
-                                        "tasks.md"
-                                    ],
-                          "author":  "kse-team",
-                          "created_at":  "2025-01-31",
-                          "updated_at":  "2025-01-31"
-                      },
-                      {
-                          "id":  "backend-features/database-integration",
-                          "name":  "Database Integration",
-                          "category":  "backend-features",
-                          "description":  "Template for integrating database with schema design, migrations, and ORM setup",
-                          "difficulty":  "intermediate",
-                          "tags":  [
-                                       "database",
-                                       "schema",
-                                       "migrations",
-                                       "orm",
-                                       "backend"
-                                   ],
-                          "applicable_scenarios":  [
-                                                       "Setting up database for new project",
-                                                       "Adding database to existing application",
-                                                       "Implementing data persistence layer",
-                                                       "Creating database migrations"
-                                                   ],
-                          "files":  [
-                                        "requirements.md",
-                                        "design.md",
-                                        "tasks.md"
-                                    ],
-                          "author":  "kse-team",
-                          "created_at":  "2025-01-31",
-                          "updated_at":  "2025-01-31"
-                      },
-                      {
-                          "id":  "backend-features/pure-restful-backend",
-                          "name":  "Pure RESTful Backend",
-                          "category":  "backend-features",
-                          "description":  "Template for building pure RESTful backend APIs with embedded Jetty, modular architecture, and comprehensive testing",
-                          "difficulty":  "advanced",
-                          "tags":  [
-                                       "rest",
-                                       "api",
-                                       "backend",
-                                       "jetty",
-                                       "java",
-                                       "modular-architecture"
-                                   ],
-                          "applicable_scenarios":  [
-                                                       "Building REST API backend from scratch",
-                                                       "Modernizing legacy backend to pure REST architecture",
-                                                       "Creating embedded Jetty-based microservices",
-                                                       "Implementing modular backend with clean separation of concerns"
-                                                   ],
-                          "files":  [
-                                        "requirements.md",
-                                        "design.md",
-                                        "tasks.md"
-                                    ],
-                          "author":  "FallingAKS",
-                          "created_at":  "2026-02-10",
-                          "updated_at":  "2026-02-10"
-                      },
-                      {
-                          "id":  "architecture/architecture-design",
-                          "name":  "Architecture Design",
-                          "category":  "architecture",
-                          "description":  "Template for comprehensive architecture design including component decomposition, data flow, and technology selection",
-                          "difficulty":  "advanced",
-                          "tags":  [
-                                       "architecture",
-                                       "design",
-                                       "system-design",
-                                       "components",
-                                       "data-flow"
-                                   ],
-                          "applicable_scenarios":  [
-                                                       "Designing new system architecture",
-                                                       "Restructuring existing application architecture",
-                                                       "Planning microservices decomposition",
-                                                       "Evaluating technology stack decisions"
-                                                   ],
-                          "files":  [
-                                        "requirements.md",
-                                        "design.md",
-                                        "tasks.md"
-                                    ],
-                          "author":  "FallingAKS",
-                          "created_at":  "2026-02-10",
-                          "updated_at":  "2026-02-10"
-                      },
-                      {
-                          "id":  "quality/phase2-quality-debt-closure",
-                          "name":  "Quality Debt Closure",
-                          "category":  "quality",
-                          "description":  "Template for systematic quality debt closure including test coverage improvement, code quality metrics, and technical debt reduction",
-                          "difficulty":  "intermediate",
-                          "tags":  [
-                                       "quality",
-                                       "testing",
-                                       "coverage",
-                                       "technical-debt",
-                                       "refactoring"
-                                   ],
-                          "applicable_scenarios":  [
-                                                       "Improving test coverage systematically",
-                                                       "Closing technical debt in phases",
-                                                       "Establishing quality metrics and gates",
-                                                       "Planning quality improvement sprints"
-                                                   ],
-                          "files":  [
-                                        "requirements.md",
-                                        "design.md",
-                                        "tasks.md"
-                                    ],
-                          "author":  "FallingAKS",
-                          "created_at":  "2026-02-10",
-                          "updated_at":  "2026-02-10"
-                      },
-                      {
-                          "id":  "domain-modeling/domain-analysis",
-                          "name":  "Domain Analysis",
-                          "category":  "domain-modeling",
-                          "description":  "Template for domain analysis and business modeling — identify entities, relationships, business processes, state machines, and rules from user requirements. Includes ER diagram, API endpoint planning, and data migration strategy.",
-                          "difficulty":  "intermediate",
-                          "tags":  [
-                                       "domain-modeling",
-                                       "data-model",
-                                       "entity-relationship",
-                                       "business-process",
-                                       "state-machine",
-                                       "requirements-analysis"
-                                   ],
-                          "applicable_scenarios":  [
-                                                       "Analyzing a new business domain before implementation",
-                                                       "Building data models for industry-specific applications",
-                                                       "Designing entity relationships and business rules",
-                                                       "Planning API endpoints from domain models",
-                                                       "Modeling state machines and entity lifecycles"
-                                                   ],
-                          "files":  [
-                                        "requirements.md",
-                                        "design.md",
-                                        "tasks.md"
-                                    ],
-                          "author":  "FallingAKS",
-                          "created_at":  "2026-02-11",
-                          "updated_at":  "2026-02-11"
-                      },
-                      {
-                          "applicable_scenarios":  [
-                                                       "Extending Moqui ERP for industry-specific needs",
-                                                       "Building business features on top of Moqui entity model",
-                                                       "Reusing Moqui REST API services while adding domain logic",
-                                                       "Mapping industry requirements to Moqui WorkEffort Party Facility entities"
-                                                   ],
-                          "id":  "domain-modeling/moqui-domain-extension",
-                          "tags":  [
-                                       "moqui",
-                                       "domain-extension",
-                                       "entity-engine",
-                                       "rest-api",
-                                       "data-model",
-                                       "business-process",
-                                       "industry-specific"
-                                   ],
-                          "category":  "domain-modeling",
-                          "description":  "Template for extending Moqui existing data model and REST API services for industry-specific business domains. Reuse-first approach: leverage Moqui entities, services, and generic CRUD/Service APIs before creating new components.",
-                          "author":  "FallingAKS",
-                          "created_at":  "2026-02-11",
-                          "name":  "Moqui Domain Extension",
-                          "files":  [
-                                        "requirements.md",
-                                        "design.md",
-                                        "tasks.md"
-                                    ],
-                          "difficulty":  "intermediate",
-                          "updated_at":  "2026-02-11"
-                      }
-                  ]
+{
+  "version": "1.4.0",
+  "last_updated": "2026-02-16",
+  "templates": [
+    {
+      "id": "web-features/rest-api",
+      "name": "REST API Feature",
+      "category": "web-features",
+      "description": "Template for creating RESTful API endpoints with proper validation, error handling, and documentation",
+      "difficulty": "intermediate",
+      "tags": [
+        "api",
+        "rest",
+        "backend",
+        "http",
+        "validation"
+      ],
+      "applicable_scenarios": [
+        "Creating new API endpoints",
+        "Implementing CRUD operations",
+        "Building microservices",
+        "Adding authentication to APIs"
+      ],
+      "files": [
+        "requirements.md",
+        "design.md",
+        "tasks.md"
+      ],
+      "author": "kse-team",
+      "created_at": "2025-01-30",
+      "updated_at": "2025-01-30"
+    },
+    {
+      "id": "web-features/graphql-api",
+      "name": "GraphQL API Feature",
+      "category": "web-features",
+      "description": "Template for creating GraphQL API with schema, resolvers, and proper error handling",
+      "difficulty": "intermediate",
+      "tags": [
+        "api",
+        "graphql",
+        "backend",
+        "schema",
+        "resolvers"
+      ],
+      "applicable_scenarios": [
+        "Creating GraphQL APIs",
+        "Implementing flexible data queries",
+        "Building real-time applications",
+        "Replacing REST APIs with GraphQL"
+      ],
+      "files": [
+        "requirements.md",
+        "design.md",
+        "tasks.md"
+      ],
+      "author": "kse-team",
+      "created_at": "2025-01-31",
+      "updated_at": "2025-01-31"
+    },
+    {
+      "id": "backend-features/database-integration",
+      "name": "Database Integration",
+      "category": "backend-features",
+      "description": "Template for integrating database with schema design, migrations, and ORM setup",
+      "difficulty": "intermediate",
+      "tags": [
+        "database",
+        "schema",
+        "migrations",
+        "orm",
+        "backend"
+      ],
+      "applicable_scenarios": [
+        "Setting up database for new project",
+        "Adding database to existing application",
+        "Implementing data persistence layer",
+        "Creating database migrations"
+      ],
+      "files": [
+        "requirements.md",
+        "design.md",
+        "tasks.md"
+      ],
+      "author": "kse-team",
+      "created_at": "2025-01-31",
+      "updated_at": "2025-01-31"
+    },
+    {
+      "id": "backend-features/pure-restful-backend",
+      "name": "Pure RESTful Backend",
+      "category": "backend-features",
+      "description": "Template for building pure RESTful backend APIs with embedded Jetty, modular architecture, and comprehensive testing",
+      "difficulty": "advanced",
+      "tags": [
+        "rest",
+        "api",
+        "backend",
+        "jetty",
+        "java",
+        "modular-architecture"
+      ],
+      "applicable_scenarios": [
+        "Building REST API backend from scratch",
+        "Modernizing legacy backend to pure REST architecture",
+        "Creating embedded Jetty-based microservices",
+        "Implementing modular backend with clean separation of concerns"
+      ],
+      "files": [
+        "requirements.md",
+        "design.md",
+        "tasks.md"
+      ],
+      "author": "FallingAKS",
+      "created_at": "2026-02-10",
+      "updated_at": "2026-02-10"
+    },
+    {
+      "id": "architecture/architecture-design",
+      "name": "Architecture Design",
+      "category": "architecture",
+      "description": "Template for comprehensive architecture design including component decomposition, data flow, and technology selection",
+      "difficulty": "advanced",
+      "tags": [
+        "architecture",
+        "design",
+        "system-design",
+        "components",
+        "data-flow"
+      ],
+      "applicable_scenarios": [
+        "Designing new system architecture",
+        "Restructuring existing application architecture",
+        "Planning microservices decomposition",
+        "Evaluating technology stack decisions"
+      ],
+      "files": [
+        "requirements.md",
+        "design.md",
+        "tasks.md"
+      ],
+      "author": "FallingAKS",
+      "created_at": "2026-02-10",
+      "updated_at": "2026-02-10"
+    },
+    {
+      "id": "quality/phase2-quality-debt-closure",
+      "name": "Quality Debt Closure",
+      "category": "quality",
+      "description": "Template for systematic quality debt closure including test coverage improvement, code quality metrics, and technical debt reduction",
+      "difficulty": "intermediate",
+      "tags": [
+        "quality",
+        "testing",
+        "coverage",
+        "technical-debt",
+        "refactoring"
+      ],
+      "applicable_scenarios": [
+        "Improving test coverage systematically",
+        "Closing technical debt in phases",
+        "Establishing quality metrics and gates",
+        "Planning quality improvement sprints"
+      ],
+      "files": [
+        "requirements.md",
+        "design.md",
+        "tasks.md"
+      ],
+      "author": "FallingAKS",
+      "created_at": "2026-02-10",
+      "updated_at": "2026-02-10"
+    },
+    {
+      "id": "domain-modeling/domain-analysis",
+      "name": "Domain Analysis",
+      "category": "domain-modeling",
+      "description": "Template for domain analysis and business modeling — identify entities, relationships, business processes, state machines, and rules from user requirements. Includes ER diagram, API endpoint planning, and data migration strategy.",
+      "difficulty": "intermediate",
+      "tags": [
+        "domain-modeling",
+        "data-model",
+        "entity-relationship",
+        "business-process",
+        "state-machine",
+        "requirements-analysis"
+      ],
+      "applicable_scenarios": [
+        "Analyzing a new business domain before implementation",
+        "Building data models for industry-specific applications",
+        "Designing entity relationships and business rules",
+        "Planning API endpoints from domain models",
+        "Modeling state machines and entity lifecycles"
+      ],
+      "files": [
+        "requirements.md",
+        "design.md",
+        "tasks.md"
+      ],
+      "author": "FallingAKS",
+      "created_at": "2026-02-11",
+      "updated_at": "2026-02-11"
+    },
+    {
+      "applicable_scenarios": [
+        "Extending Moqui ERP for industry-specific needs",
+        "Building business features on top of Moqui entity model",
+        "Reusing Moqui REST API services while adding domain logic",
+        "Mapping industry requirements to Moqui WorkEffort Party Facility entities"
+      ],
+      "id": "domain-modeling/moqui-domain-extension",
+      "tags": [
+        "moqui",
+        "domain-extension",
+        "entity-engine",
+        "rest-api",
+        "data-model",
+        "business-process",
+        "industry-specific"
+      ],
+      "category": "domain-modeling",
+      "description": "Template for extending Moqui existing data model and REST API services for industry-specific business domains. Reuse-first approach: leverage Moqui entities, services, and generic CRUD/Service APIs before creating new components.",
+      "author": "FallingAKS",
+      "created_at": "2026-02-11",
+      "name": "Moqui Domain Extension",
+      "files": [
+        "requirements.md",
+        "design.md",
+        "tasks.md"
+      ],
+      "difficulty": "intermediate",
+      "updated_at": "2026-02-11"
+    },
+    {
+      "id": "backend-features/master-data-deepening",
+      "name": "Master Data Deepening",
+      "category": "backend-features",
+      "description": "Template for Master Data Deepening capability implementation and closure",
+      "difficulty": "advanced",
+      "tags": [
+        "moqui",
+        "erp",
+        "kse",
+        "master",
+        "data"
+      ],
+      "applicable_scenarios": [
+        "Implement Master Data Deepening in Moqui modernization programs",
+        "Drive capability closure with requirements/design/tasks workflow",
+        "Reuse proven enterprise implementation patterns"
+      ],
+      "files": [
+        "requirements.md",
+        "design.md",
+        "tasks.md"
+      ],
+      "author": "FallingAKS",
+      "created_at": "2026-02-16",
+      "updated_at": "2026-02-16"
+    },
+    {
+      "id": "backend-features/sales-lifecycle-enhancement",
+      "name": "Sales Lifecycle Enhancement",
+      "category": "backend-features",
+      "description": "Template for Sales Lifecycle Enhancement capability implementation and closure",
+      "difficulty": "advanced",
+      "tags": [
+        "moqui",
+        "erp",
+        "kse",
+        "sales",
+        "lifecycle"
+      ],
+      "applicable_scenarios": [
+        "Implement Sales Lifecycle Enhancement in Moqui modernization programs",
+        "Drive capability closure with requirements/design/tasks workflow",
+        "Reuse proven enterprise implementation patterns"
+      ],
+      "files": [
+        "requirements.md",
+        "design.md",
+        "tasks.md"
+      ],
+      "author": "FallingAKS",
+      "created_at": "2026-02-16",
+      "updated_at": "2026-02-16"
+    },
+    {
+      "id": "backend-features/production-planning-mrp",
+      "name": "Production Planning Mrp",
+      "category": "backend-features",
+      "description": "Template for Production Planning Mrp capability implementation and closure",
+      "difficulty": "advanced",
+      "tags": [
+        "moqui",
+        "erp",
+        "kse",
+        "production",
+        "planning"
+      ],
+      "applicable_scenarios": [
+        "Implement Production Planning Mrp in Moqui modernization programs",
+        "Drive capability closure with requirements/design/tasks workflow",
+        "Reuse proven enterprise implementation patterns"
+      ],
+      "files": [
+        "requirements.md",
+        "design.md",
+        "tasks.md"
+      ],
+      "author": "FallingAKS",
+      "created_at": "2026-02-16",
+      "updated_at": "2026-02-16"
+    },
+    {
+      "id": "backend-features/procurement-inventory-deepening",
+      "name": "Procurement Inventory Deepening",
+      "category": "backend-features",
+      "description": "Template for Procurement Inventory Deepening capability implementation and closure",
+      "difficulty": "advanced",
+      "tags": [
+        "moqui",
+        "erp",
+        "kse",
+        "procurement",
+        "inventory"
+      ],
+      "applicable_scenarios": [
+        "Implement Procurement Inventory Deepening in Moqui modernization programs",
+        "Drive capability closure with requirements/design/tasks workflow",
+        "Reuse proven enterprise implementation patterns"
+      ],
+      "files": [
+        "requirements.md",
+        "design.md",
+        "tasks.md"
+      ],
+      "author": "FallingAKS",
+      "created_at": "2026-02-16",
+      "updated_at": "2026-02-16"
+    },
+    {
+      "id": "backend-features/costing-settlement-enhancement",
+      "name": "Costing Settlement Enhancement",
+      "category": "backend-features",
+      "description": "Template for Costing Settlement Enhancement capability implementation and closure",
+      "difficulty": "advanced",
+      "tags": [
+        "moqui",
+        "erp",
+        "kse",
+        "costing",
+        "settlement"
+      ],
+      "applicable_scenarios": [
+        "Implement Costing Settlement Enhancement in Moqui modernization programs",
+        "Drive capability closure with requirements/design/tasks workflow",
+        "Reuse proven enterprise implementation patterns"
+      ],
+      "files": [
+        "requirements.md",
+        "design.md",
+        "tasks.md"
+      ],
+      "author": "FallingAKS",
+      "created_at": "2026-02-16",
+      "updated_at": "2026-02-16"
+    },
+    {
+      "id": "backend-features/project-wbs-management",
+      "name": "Project Wbs Management",
+      "category": "backend-features",
+      "description": "Template for Project Wbs Management capability implementation and closure",
+      "difficulty": "advanced",
+      "tags": [
+        "moqui",
+        "erp",
+        "kse",
+        "project",
+        "wbs"
+      ],
+      "applicable_scenarios": [
+        "Implement Project Wbs Management in Moqui modernization programs",
+        "Drive capability closure with requirements/design/tasks workflow",
+        "Reuse proven enterprise implementation patterns"
+      ],
+      "files": [
+        "requirements.md",
+        "design.md",
+        "tasks.md"
+      ],
+      "author": "FallingAKS",
+      "created_at": "2026-02-16",
+      "updated_at": "2026-02-16"
+    },
+    {
+      "id": "backend-features/service-support-repair",
+      "name": "Service Support Repair",
+      "category": "backend-features",
+      "description": "Template for Service Support Repair capability implementation and closure",
+      "difficulty": "advanced",
+      "tags": [
+        "moqui",
+        "erp",
+        "kse",
+        "service",
+        "support"
+      ],
+      "applicable_scenarios": [
+        "Implement Service Support Repair in Moqui modernization programs",
+        "Drive capability closure with requirements/design/tasks workflow",
+        "Reuse proven enterprise implementation patterns"
+      ],
+      "files": [
+        "requirements.md",
+        "design.md",
+        "tasks.md"
+      ],
+      "author": "FallingAKS",
+      "created_at": "2026-02-16",
+      "updated_at": "2026-02-16"
+    },
+    {
+      "id": "backend-features/tool-fixture-management",
+      "name": "Tool Fixture Management",
+      "category": "backend-features",
+      "description": "Template for Tool Fixture Management capability implementation and closure",
+      "difficulty": "advanced",
+      "tags": [
+        "moqui",
+        "erp",
+        "kse",
+        "tool",
+        "fixture"
+      ],
+      "applicable_scenarios": [
+        "Implement Tool Fixture Management in Moqui modernization programs",
+        "Drive capability closure with requirements/design/tasks workflow",
+        "Reuse proven enterprise implementation patterns"
+      ],
+      "files": [
+        "requirements.md",
+        "design.md",
+        "tasks.md"
+      ],
+      "author": "FallingAKS",
+      "created_at": "2026-02-16",
+      "updated_at": "2026-02-16"
+    },
+    {
+      "id": "backend-features/equipment-lifecycle-enhancement",
+      "name": "Equipment Lifecycle Enhancement",
+      "category": "backend-features",
+      "description": "Template for Equipment Lifecycle Enhancement capability implementation and closure",
+      "difficulty": "advanced",
+      "tags": [
+        "moqui",
+        "erp",
+        "kse",
+        "equipment",
+        "lifecycle"
+      ],
+      "applicable_scenarios": [
+        "Implement Equipment Lifecycle Enhancement in Moqui modernization programs",
+        "Drive capability closure with requirements/design/tasks workflow",
+        "Reuse proven enterprise implementation patterns"
+      ],
+      "files": [
+        "requirements.md",
+        "design.md",
+        "tasks.md"
+      ],
+      "author": "FallingAKS",
+      "created_at": "2026-02-16",
+      "updated_at": "2026-02-16"
+    },
+    {
+      "id": "backend-features/workflow-approval-engine",
+      "name": "Workflow Approval Engine",
+      "category": "backend-features",
+      "description": "Template for Workflow Approval Engine capability implementation and closure",
+      "difficulty": "advanced",
+      "tags": [
+        "moqui",
+        "erp",
+        "kse",
+        "workflow",
+        "approval"
+      ],
+      "applicable_scenarios": [
+        "Implement Workflow Approval Engine in Moqui modernization programs",
+        "Drive capability closure with requirements/design/tasks workflow",
+        "Reuse proven enterprise implementation patterns"
+      ],
+      "files": [
+        "requirements.md",
+        "design.md",
+        "tasks.md"
+      ],
+      "author": "FallingAKS",
+      "created_at": "2026-02-16",
+      "updated_at": "2026-02-16"
+    },
+    {
+      "id": "backend-features/reporting-audit-ops",
+      "name": "Reporting Audit Ops",
+      "category": "backend-features",
+      "description": "Template for Reporting Audit Ops capability implementation and closure",
+      "difficulty": "advanced",
+      "tags": [
+        "moqui",
+        "erp",
+        "kse",
+        "reporting",
+        "audit"
+      ],
+      "applicable_scenarios": [
+        "Implement Reporting Audit Ops in Moqui modernization programs",
+        "Drive capability closure with requirements/design/tasks workflow",
+        "Reuse proven enterprise implementation patterns"
+      ],
+      "files": [
+        "requirements.md",
+        "design.md",
+        "tasks.md"
+      ],
+      "author": "FallingAKS",
+      "created_at": "2026-02-16",
+      "updated_at": "2026-02-16"
+    },
+    {
+      "id": "backend-features/data-migration-domestic-validation",
+      "name": "Data Migration Domestic Validation",
+      "category": "backend-features",
+      "description": "Template for Data Migration Domestic Validation capability implementation and closure",
+      "difficulty": "advanced",
+      "tags": [
+        "moqui",
+        "erp",
+        "kse",
+        "data",
+        "migration"
+      ],
+      "applicable_scenarios": [
+        "Implement Data Migration Domestic Validation in Moqui modernization programs",
+        "Drive capability closure with requirements/design/tasks workflow",
+        "Reuse proven enterprise implementation patterns"
+      ],
+      "files": [
+        "requirements.md",
+        "design.md",
+        "tasks.md"
+      ],
+      "author": "FallingAKS",
+      "created_at": "2026-02-16",
+      "updated_at": "2026-02-16"
+    },
+    {
+      "id": "backend-features/wave-b-enterprise-hardening-program",
+      "name": "Wave B Enterprise Hardening Program",
+      "category": "backend-features",
+      "description": "Template for Wave B Enterprise Hardening Program capability implementation and closure",
+      "difficulty": "advanced",
+      "tags": [
+        "moqui",
+        "erp",
+        "kse",
+        "wave",
+        "b"
+      ],
+      "applicable_scenarios": [
+        "Implement Wave B Enterprise Hardening Program in Moqui modernization programs",
+        "Drive capability closure with requirements/design/tasks workflow",
+        "Reuse proven enterprise implementation patterns"
+      ],
+      "files": [
+        "requirements.md",
+        "design.md",
+        "tasks.md"
+      ],
+      "author": "FallingAKS",
+      "created_at": "2026-02-16",
+      "updated_at": "2026-02-16"
+    },
+    {
+      "id": "backend-features/moqui-capability-itemized-parity-matrix",
+      "name": "Moqui Capability Itemized Parity Matrix",
+      "category": "backend-features",
+      "description": "Template for Moqui Capability Itemized Parity Matrix capability implementation and closure",
+      "difficulty": "advanced",
+      "tags": [
+        "moqui",
+        "erp",
+        "kse",
+        "moqui",
+        "capability"
+      ],
+      "applicable_scenarios": [
+        "Implement Moqui Capability Itemized Parity Matrix in Moqui modernization programs",
+        "Drive capability closure with requirements/design/tasks workflow",
+        "Reuse proven enterprise implementation patterns"
+      ],
+      "files": [
+        "requirements.md",
+        "design.md",
+        "tasks.md"
+      ],
+      "author": "FallingAKS",
+      "created_at": "2026-02-16",
+      "updated_at": "2026-02-16"
+    }
+  ]
 }

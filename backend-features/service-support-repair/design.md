@@ -1,0 +1,27 @@
+﻿---
+name: service-support-repair
+category: backend-features
+description: Template for Service Support Repair
+tags: []
+author: FallingAKS
+created_at: '2026-02-16'
+updated_at: '2026-02-16'
+version: 1.0.0
+kse_version: 1.47.7
+---
+
+# 设计文档：服务保障与维修（60-07）
+
+## 设计要点
+
+- 新增服务通知与维修工单实体/服务
+- 与 Return、Equipment、Inventory、Cost 模块联动
+- 前端新增服务通知、维修看板与分析页面
+
+## 验收
+
+- 通知与维修工单链路可闭环
+- 返修成本可追溯
+- 故障统计报表可查询
+
+

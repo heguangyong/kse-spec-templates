@@ -32,7 +32,7 @@ kse spec create my-feature --template backend-features/pure-restful-backend
 | Category | Description | Templates |
 |----------|-------------|-----------|
 | **web-features/** | Frontend and web application features | 2 |
-| **backend-features/** | Backend services and APIs | 2 |
+| **backend-features/** | Backend services and APIs | 16 |
 | **architecture/** | System architecture and design patterns | 1 |
 | **quality/** | Quality assurance and technical debt | 1 |
 | **domain-modeling/** | Business domain analysis and data modeling | 2 |
@@ -49,6 +49,23 @@ kse spec create my-feature --template backend-features/pure-restful-backend
 | `quality/phase2-quality-debt-closure` | Quality Debt Closure | intermediate | quality, testing, coverage, technical-debt | Improving test coverage, closing technical debt, quality improvement sprints |
 | `domain-modeling/domain-analysis` |
 | `domain-modeling/moqui-domain-extension` | Moqui Domain Extension | intermediate | moqui, entity-engine, rest-api, domain-extension | Extending Moqui ERP for industry-specific needs, reusing existing entities and REST APIs | Domain Analysis | intermediate | domain-modeling, data-model, entity-relationship, state-machine | Analyzing business domains, building data models, designing entity relationships and lifecycles |
+
+### Newly Added Enterprise Templates (2026-02-16)
+
+- `backend-features/master-data-deepening`
+- `backend-features/sales-lifecycle-enhancement`
+- `backend-features/production-planning-mrp`
+- `backend-features/procurement-inventory-deepening`
+- `backend-features/costing-settlement-enhancement`
+- `backend-features/project-wbs-management`
+- `backend-features/service-support-repair`
+- `backend-features/tool-fixture-management`
+- `backend-features/equipment-lifecycle-enhancement`
+- `backend-features/workflow-approval-engine`
+- `backend-features/reporting-audit-ops`
+- `backend-features/data-migration-domestic-validation`
+- `backend-features/wave-b-enterprise-hardening-program`
+- `backend-features/moqui-capability-itemized-parity-matrix`
 
 ### How to Choose
 
@@ -142,9 +159,9 @@ Thanks to all contributors who have shared their templates with the community!
 
 ---
 
-**Version**: 1.3.0  
-**Last Updated**: 2026-02-11  
-**Templates**: 8  
+**Version**: 1.4.0  
+**Last Updated**: 2026-02-16  
+**Templates**: 22  
 **Maintained by**: [kse-team](https://github.com/heguangyong/kiro-spec-engine)
 
 
