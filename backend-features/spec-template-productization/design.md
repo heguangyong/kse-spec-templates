@@ -18,7 +18,7 @@ kse_version: 1.47.7
 
 ## 2. 生成流程
 1. 选择来源 Spec
-2. 执行 `kse templates create-from-spec`
+2. 执行 `sce templates create-from-spec`
 3. 调整模板变量与说明
 4. 验证模板可见与可创建
 

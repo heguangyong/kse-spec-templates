@@ -15,8 +15,8 @@ kse_version: 1.47.7
 ## 任务列表
 
 - [x] 1 升级执行基座
-  - [x] 1.1 升级 `kiro-spec-engine` 到 `1.47.0`
-  - [x] 1.2 校验 `kse --version` 输出 `1.47.0`
+  - [x] 1.1 升级 `scene-capability-engine` 到 `1.47.0`
+  - [x] 1.2 校验 `sce --version` 输出 `1.47.0`
   - [x] 1.3 更新 `.kiro/steering/CURRENT_CONTEXT.md` 版本信息
 
 - [x] 2 建立能力项级对齐矩阵
@@ -39,11 +39,11 @@ kse_version: 1.47.7
   - [ ] 4.3 汇总最终能力对齐报告
 
 - [ ] 5 生成与验证模板（目标 3）
-  - [x] 5.1 基于完成态 Spec 执行 `kse templates create-from-spec`
-  - [ ] 5.2 校验模板可被 `kse templates list/show` 识别
+  - [x] 5.1 基于完成态 Spec 执行 `sce templates create-from-spec`
+  - [ ] 5.2 校验模板可被 `sce templates list/show` 识别
   - [ ] 5.3 补齐模板使用文档（初始化/执行/回填）
 
 - [x] 6 治理闭环
-  - [x] 6.1 执行 `kse status --verbose`
-  - [x] 6.2 执行 `kse doctor --docs`
+  - [x] 6.1 执行 `sce status --verbose`
+  - [x] 6.2 执行 `sce doctor --docs`
   - [x] 6.3 更新 `.kiro/steering/CURRENT_CONTEXT.md`（版本递增）

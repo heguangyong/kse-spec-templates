@@ -1,6 +1,6 @@
 # Template Usage Guide
 
-This guide explains how to use kse-spec-templates to quickly create well-structured feature specifications.
+This guide explains how to use scene-capability-engine-templates to quickly create well-structured feature specifications.
 
 ## Table of Contents
 
@@ -17,7 +17,7 @@ This guide explains how to use kse-spec-templates to quickly create well-structu
 
 ### Prerequisites
 
-- kiro-spec-engine (kse) installed: `npm install -g kiro-spec-engine`
+- scene-capability-engine (sce) installed: `npm install -g scene-capability-engine`
 - Git installed on your system
 - Internet connection (for first-time template download)
 
@@ -27,10 +27,10 @@ Templates are automatically downloaded when you first use them. No manual setup 
 
 ```bash
 # List available templates (downloads on first use)
-kse templates list
+sce templates list
 
 # Or create a Spec directly (downloads automatically)
-kse spec create my-feature --template web-features/rest-api
+sce spec create my-feature --template web-features/rest-api
 ```
 
 ## Listing Templates
@@ -38,7 +38,7 @@ kse spec create my-feature --template web-features/rest-api
 View all available templates grouped by category:
 
 ```bash
-kse templates list
+sce templates list
 ```
 
 **Output Example**:
@@ -54,13 +54,13 @@ kse templates list
 ### Filter by Category
 
 ```bash
-kse templates list --category web-features
+sce templates list --category web-features
 ```
 
 ### Filter by Source
 
 ```bash
-kse templates list --source official
+sce templates list --source official
 ```
 
 ## Searching Templates
@@ -69,13 +69,13 @@ Find templates by keyword:
 
 ```bash
 # Search for API-related templates
-kse templates search "api"
+sce templates search "api"
 
 # Search for database templates
-kse templates search "database"
+sce templates search "database"
 
 # Search by tag
-kse templates search "graphql"
+sce templates search "graphql"
 ```
 
 The search looks through template names, descriptions, and tags.
@@ -85,7 +85,7 @@ The search looks through template names, descriptions, and tags.
 Get detailed information about a specific template:
 
 ```bash
-kse templates show web-features/rest-api
+sce templates show web-features/rest-api
 ```
 
 **Output includes**:
@@ -101,7 +101,7 @@ kse templates show web-features/rest-api
 ### Basic Usage
 
 ```bash
-kse spec create my-feature --template web-features/rest-api
+sce spec create my-feature --template web-features/rest-api
 ```
 
 This creates a new Spec at `.kiro/specs/my-feature/` with:
@@ -127,7 +127,7 @@ This creates a new Spec at `.kiro/specs/my-feature/` with:
 If Spec already exists, use `--force` to overwrite:
 
 ```bash
-kse spec create my-feature --template web-features/rest-api --force
+sce spec create my-feature --template web-features/rest-api --force
 ```
 
 ## Customizing Templates
@@ -164,13 +164,13 @@ Keep your local template cache up to date:
 
 ```bash
 # Update all template sources
-kse templates update
+sce templates update
 
 # Update specific source
-kse templates update --source official
+sce templates update --source official
 
 # Update to specific version
-kse templates update --version v1.2.0
+sce templates update --version v1.2.0
 ```
 
 **Change Detection**: The update command shows:
@@ -202,9 +202,9 @@ kse templates update --version v1.2.0
 
 ### Template Maintenance
 
-1. **Update Regularly**: Run `kse templates update` weekly
-2. **Clear Cache if Needed**: `kse templates cache --clear` to force re-download
-3. **Check Cache Status**: `kse templates cache` to see what's cached
+1. **Update Regularly**: Run `sce templates update` weekly
+2. **Clear Cache if Needed**: `sce templates cache --clear` to force re-download
+3. **Check Cache Status**: `sce templates cache` to see what's cached
 
 ## Troubleshooting
 
@@ -212,10 +212,10 @@ kse templates update --version v1.2.0
 
 ```bash
 # List all templates to verify the ID
-kse templates list
+sce templates list
 
 # Update templates to get latest
-kse templates update
+sce templates update
 ```
 
 ### Download Fails
@@ -223,8 +223,8 @@ kse templates update
 ```bash
 # Check internet connection
 # Clear cache and retry
-kse templates cache --clear
-kse templates update
+sce templates cache --clear
+sce templates update
 ```
 
 ### Variables Not Replaced
@@ -237,7 +237,7 @@ Ensure you're using the correct placeholder format:
 
 Use `--force` flag to overwrite:
 ```bash
-kse spec create my-feature --template web-features/rest-api --force
+sce spec create my-feature --template web-features/rest-api --force
 ```
 
 ## Advanced Usage
@@ -247,7 +247,7 @@ kse spec create my-feature --template web-features/rest-api --force
 Add your own template repository:
 
 ```bash
-kse templates add-source my-templates https://github.com/myorg/my-templates.git
+sce templates add-source my-templates https://github.com/myorg/my-templates.git
 ```
 
 ### Offline Mode
@@ -257,8 +257,8 @@ Once templates are cached, you can work offline:
 ```bash
 # Templates are cached at ~/.kse/templates/
 # All operations work without internet after initial download
-kse templates list
-kse spec create my-feature --template web-features/rest-api
+sce templates list
+sce spec create my-feature --template web-features/rest-api
 ```
 
 ### Multiple Sources
@@ -267,15 +267,15 @@ When templates from different sources have the same name:
 
 ```bash
 # Use source prefix
-kse spec create my-feature --template official:web-features/rest-api
-kse spec create my-feature --template my-templates:web-features/rest-api
+sce spec create my-feature --template official:web-features/rest-api
+sce spec create my-feature --template my-templates:web-features/rest-api
 ```
 
 ## Getting Help
 
-- **Command Help**: `kse templates --help`
-- **Template Guide**: `kse templates guide`
-- **Report Issues**: https://github.com/heguangyong/kse-spec-templates/issues
+- **Command Help**: `sce templates --help`
+- **Template Guide**: `sce templates guide`
+- **Report Issues**: https://github.com/heguangyong/scene-capability-engine-templates/issues
 - **Contribute**: See [CONTRIBUTING.md](../CONTRIBUTING.md)
 
 ---

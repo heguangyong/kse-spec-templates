@@ -7,7 +7,7 @@ tags: [database, schema, migrations, implementation]
 applicable_scenarios:
   - Breaking down database setup
   - Planning data layer implementation
-author: kse-team
+author: sce-team
 created_at: 2025-01-31
 updated_at: 2025-01-31
 version: 1.0.0

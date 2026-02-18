@@ -26,7 +26,7 @@
         "design.md",
         "tasks.md"
       ],
-      "author": "kse-team",
+      "author": "sce-team",
       "created_at": "2025-01-30",
       "updated_at": "2025-01-30"
     },
@@ -54,7 +54,7 @@
         "design.md",
         "tasks.md"
       ],
-      "author": "kse-team",
+      "author": "sce-team",
       "created_at": "2025-01-31",
       "updated_at": "2025-01-31"
     },
@@ -82,7 +82,7 @@
         "design.md",
         "tasks.md"
       ],
-      "author": "kse-team",
+      "author": "sce-team",
       "created_at": "2025-01-31",
       "updated_at": "2025-01-31"
     },
@@ -240,7 +240,7 @@
       "tags": [
         "moqui",
         "erp",
-        "kse",
+        "sce",
         "master",
         "data"
       ],
@@ -267,7 +267,7 @@
       "tags": [
         "moqui",
         "erp",
-        "kse",
+        "sce",
         "sales",
         "lifecycle"
       ],
@@ -294,7 +294,7 @@
       "tags": [
         "moqui",
         "erp",
-        "kse",
+        "sce",
         "production",
         "planning"
       ],
@@ -321,7 +321,7 @@
       "tags": [
         "moqui",
         "erp",
-        "kse",
+        "sce",
         "procurement",
         "inventory"
       ],
@@ -348,7 +348,7 @@
       "tags": [
         "moqui",
         "erp",
-        "kse",
+        "sce",
         "costing",
         "settlement"
       ],
@@ -375,7 +375,7 @@
       "tags": [
         "moqui",
         "erp",
-        "kse",
+        "sce",
         "project",
         "wbs"
       ],
@@ -402,7 +402,7 @@
       "tags": [
         "moqui",
         "erp",
-        "kse",
+        "sce",
         "service",
         "support"
       ],
@@ -429,7 +429,7 @@
       "tags": [
         "moqui",
         "erp",
-        "kse",
+        "sce",
         "tool",
         "fixture"
       ],
@@ -456,7 +456,7 @@
       "tags": [
         "moqui",
         "erp",
-        "kse",
+        "sce",
         "equipment",
         "lifecycle"
       ],
@@ -483,7 +483,7 @@
       "tags": [
         "moqui",
         "erp",
-        "kse",
+        "sce",
         "workflow",
         "approval"
       ],
@@ -510,7 +510,7 @@
       "tags": [
         "moqui",
         "erp",
-        "kse",
+        "sce",
         "reporting",
         "audit"
       ],
@@ -537,7 +537,7 @@
       "tags": [
         "moqui",
         "erp",
-        "kse",
+        "sce",
         "data",
         "migration"
       ],
@@ -564,7 +564,7 @@
       "tags": [
         "moqui",
         "erp",
-        "kse",
+        "sce",
         "wave",
         "b"
       ],
@@ -591,7 +591,7 @@
       "tags": [
         "moqui",
         "erp",
-        "kse",
+        "sce",
         "moqui",
         "capability"
       ],

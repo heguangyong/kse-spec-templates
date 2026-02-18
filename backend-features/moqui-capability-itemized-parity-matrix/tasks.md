@@ -1,4 +1,4 @@
-﻿---
+---
 name: moqui-capability-itemized-parity-matrix
 category: backend-features
 description: Template for Moqui Capability Itemized Parity Matrix
@@ -27,6 +27,6 @@ kse_version: 1.47.7
   - [x] 3.3 回填 CURRENT_CONTEXT
 
 - [x] 4 治理验证
-  - [x] 4.1 执行 `kse status --verbose`
-  - [x] 4.2 执行 `kse doctor --docs`
+  - [x] 4.1 执行 `sce status --verbose`
+  - [x] 4.2 执行 `sce doctor --docs`
 

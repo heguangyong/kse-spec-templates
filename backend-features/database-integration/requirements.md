@@ -14,7 +14,7 @@ applicable_scenarios:
   - Adding database to existing application
   - Implementing data persistence layer
   - Creating database migrations
-author: kse-team
+author: sce-team
 created_at: 2025-01-31
 updated_at: 2025-01-31
 version: 1.0.0

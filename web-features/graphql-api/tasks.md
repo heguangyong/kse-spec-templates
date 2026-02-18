@@ -7,7 +7,7 @@ tags: [api, graphql, implementation]
 applicable_scenarios:
   - Breaking down GraphQL API implementation
   - Planning development phases
-author: kse-team
+author: sce-team
 created_at: 2025-01-31
 updated_at: 2025-01-31
 version: 1.0.0

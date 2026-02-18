@@ -14,7 +14,7 @@ applicable_scenarios:
   - Implementing flexible data queries
   - Building real-time applications
   - Replacing REST APIs with GraphQL
-author: kse-team
+author: sce-team
 created_at: 2025-01-31
 updated_at: 2025-01-31
 version: 1.0.0

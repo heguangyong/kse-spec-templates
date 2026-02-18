@@ -8,7 +8,7 @@ applicable_scenarios:
   - Designing GraphQL API architecture
   - Planning schema structure
   - Implementing resolvers
-author: kse-team
+author: sce-team
 created_at: 2025-01-31
 updated_at: 2025-01-31
 version: 1.0.0

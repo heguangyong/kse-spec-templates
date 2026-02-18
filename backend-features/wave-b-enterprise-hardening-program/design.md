@@ -1,4 +1,4 @@
-﻿---
+---
 name: wave-b-enterprise-hardening-program
 category: backend-features
 description: Template for Wave B Enterprise Hardening Program
@@ -104,5 +104,5 @@ kse_version: 1.47.7
 2. 子 Spec 图谱与 runbook 完成
 3. scene/collaboration 完成且可校验
 4. CURRENT_CONTEXT 更新
-5. `kse status` 与 `kse docs validate --all` 通过
+5. `sce status` 与 `sce docs validate --all` 通过
 

@@ -309,7 +309,7 @@ backend/runtime/component/{{COMPONENT_NAME}}/
 **For all** new entity definitions, **the** generic CRUD API (`/api/v1/entities/`) SHALL support list, get, create, update, delete operations without any controller code changes.
 
 ### Property 3: Service Discoverability
-**For all** new services, **they** SHALL be discoverable via `kse scene discover -t services` after registration.
+**For all** new services, **they** SHALL be discoverable via `sce scene discover -t services` after registration.
 
 ### Property 4: Status Flow Validity
 **For all** entities with status fields, **the** status transitions SHALL follow the defined StatusFlowTransition rules.
@@ -321,7 +321,7 @@ backend/runtime/component/{{COMPONENT_NAME}}/
 
 - **Integration Tests**: Verify generic CRUD API works for new entities, verify service invocation for new services
 - **Property-Based Tests**: Status transition validity, referential integrity between new and existing entities
-- **Discovery Tests**: Verify new entities/services appear in `kse scene discover` results
+- **Discovery Tests**: Verify new entities/services appear in `sce scene discover` results
 - **Framework**: JUnit 5 + jqwik (property-based testing)
 
 **Validates: Requirements 1-5**

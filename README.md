@@ -1,6 +1,6 @@
-﻿# kse-spec-templates
+# scene-capability-engine-templates
 
-Official template library for [kiro-spec-engine (kse)](https://github.com/heguangyong/kiro-spec-engine).
+Official template library for [scene-capability-engine (sce)](https://github.com/heguangyong/scene-capability-engine).
 
 This repository contains high-quality, community-contributed Spec templates to help you quickly create well-structured feature specifications.
 
@@ -8,23 +8,23 @@ This repository contains high-quality, community-contributed Spec templates to h
 
 ```bash
 # Update your local template cache
-kse templates update
+sce templates update
 
 # List all templates (grouped by category)
-kse templates list
+sce templates list
 
 # Filter by category
-kse templates list --category backend-features
+sce templates list --category backend-features
 
 # Search by keyword (matches name, description, tags)
-kse templates search "rest"
-kse templates search "quality"
+sce templates search "rest"
+sce templates search "quality"
 
 # View template details and applicable scenarios
-kse templates show backend-features/pure-restful-backend
+sce templates show backend-features/pure-restful-backend
 
 # Create a new Spec from a template
-kse spec create my-feature --template backend-features/pure-restful-backend
+sce spec create my-feature --template backend-features/pure-restful-backend
 ```
 
 ## 📁 Template Categories
@@ -116,7 +116,7 @@ applicable_scenarios:
   - Creating new API endpoints
   - Implementing CRUD operations
   - Building microservices
-author: kse-team
+author: sce-team
 created_at: 2025-01-30
 updated_at: 2025-01-30
 version: 1.0.0
@@ -162,7 +162,7 @@ Thanks to all contributors who have shared their templates with the community!
 **Version**: 1.4.0  
 **Last Updated**: 2026-02-16  
 **Templates**: 22  
-**Maintained by**: [kse-team](https://github.com/heguangyong/kiro-spec-engine)
+**Maintained by**: [sce-team](https://github.com/heguangyong/scene-capability-engine)
 
 
 

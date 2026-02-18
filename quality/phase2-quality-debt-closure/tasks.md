@@ -35,6 +35,6 @@ kse_version: 1.40.0
   - [x] 4.3 输出 Wave 1 计划文档
 
 - [x] 5 验证与收尾
-  - [x] 5.1 执行 `kse status`
-  - [x] 5.2 执行 `kse docs validate --all`
+  - [x] 5.1 执行 `sce status`
+  - [x] 5.2 执行 `sce docs validate --all`
   - [x] 5.3 更新 `.kiro/steering/CURRENT_CONTEXT.md`

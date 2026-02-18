@@ -1,6 +1,6 @@
 # Template Creation Guide
 
-This guide explains how to create high-quality templates for the kse-spec-templates library.
+This guide explains how to create high-quality templates for the scene-capability-engine-templates library.
 
 ## Table of Contents
 
@@ -280,7 +280,7 @@ Create a real Spec from your template:
 ```bash
 # Add your template to local test repository
 # Then test it
-kse spec create test-feature --template category/template-name
+sce spec create test-feature --template category/template-name
 ```
 
 Verify:

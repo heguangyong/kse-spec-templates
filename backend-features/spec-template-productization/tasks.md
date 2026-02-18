@@ -17,10 +17,10 @@ kse_version: 1.47.7
   - [x] 1.2 抽取共性结构
 
 - [x] 2 生成模板
-  - [x] 2.1 执行 `kse templates create-from-spec`
+  - [x] 2.1 执行 `sce templates create-from-spec`
   - [x] 2.2 完善模板变量与默认说明
 
 - [ ] 3 验证发布
-  - [ ] 3.1 执行 `kse templates list/show` 验证
+  - [ ] 3.1 执行 `sce templates list/show` 验证
   - [ ] 3.2 产出模板使用手册
   - [ ] 3.3 更新 CURRENT_CONTEXT

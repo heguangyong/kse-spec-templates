@@ -1,14 +1,14 @@
 # Repository Setup Instructions
 
-This document provides instructions for setting up the kse-spec-templates GitHub repository.
+This document provides instructions for setting up the scene-capability-engine-templates GitHub repository.
 
 ## Repository Creation
 
 ### 1. Create GitHub Repository
 
 1. Go to https://github.com/new
-2. **Repository name**: `kse-spec-templates`
-3. **Description**: `Official template library for kiro-spec-engine (kse) - High-quality Spec templates for rapid feature development`
+2. **Repository name**: `scene-capability-engine-templates`
+3. **Description**: `Official template library for scene-capability-engine (sce) - High-quality Spec templates for rapid feature development`
 4. **Visibility**: Public
 5. **Initialize**: Do NOT initialize with README, .gitignore, or license (we have these already)
 6. Click "Create repository"
@@ -26,7 +26,7 @@ git init
 git add .
 
 # Create initial commit
-git commit -m "Initial commit: kse-spec-templates v1.0.0
+git commit -m "Initial commit: scene-capability-engine-templates v1.0.0
 
 - Add REST API template
 - Add GraphQL API template
@@ -36,7 +36,7 @@ git commit -m "Initial commit: kse-spec-templates v1.0.0
 - Add GitHub templates"
 
 # Add remote
-git remote add origin https://github.com/heguangyong/kse-spec-templates.git
+git remote add origin https://github.com/heguangyong/scene-capability-engine-templates.git
 
 # Push to GitHub
 git branch -M main
@@ -93,17 +93,17 @@ Add repository topics for discoverability:
 
 1. Go to repository main page
 2. Click "Add topics"
-3. Add: `kse`, `spec-templates`, `kiro-spec-engine`, `templates`, `development`, `specifications`, `feature-specs`
+3. Add: `sce`, `spec-templates`, `scene-capability-engine`, `templates`, `development`, `specifications`, `feature-specs`
 
 ### About Section
 
 Update repository description:
 
-**Description**: Official template library for kiro-spec-engine (kse) - High-quality Spec templates for rapid feature development
+**Description**: Official template library for scene-capability-engine (sce) - High-quality Spec templates for rapid feature development
 
-**Website**: https://github.com/heguangyong/kiro-spec-engine
+**Website**: https://github.com/heguangyong/scene-capability-engine
 
-**Topics**: kse, spec-templates, kiro-spec-engine, templates, development, specifications, feature-specs
+**Topics**: sce, spec-templates, scene-capability-engine, templates, development, specifications, feature-specs
 
 ## GitHub Pages (Optional)
 
@@ -115,16 +115,16 @@ To host documentation on GitHub Pages:
 4. **Folder**: /docs
 5. Click "Save"
 
-Documentation will be available at: https://heguangyong.github.io/kse-spec-templates/
+Documentation will be available at: https://heguangyong.github.io/scene-capability-engine-templates/
 
-## Integration with kse CLI
+## Integration with sce CLI
 
 ### Update Default Template Source
 
-In kse CLI, the default template source URL should be:
+In sce CLI, the default template source URL should be:
 
 ```
-https://github.com/heguangyong/kse-spec-templates.git
+https://github.com/heguangyong/scene-capability-engine-templates.git
 ```
 
 This is already configured in `lib/templates/template-manager.js`:
@@ -133,7 +133,7 @@ This is already configured in `lib/templates/template-manager.js`:
 const DEFAULT_TEMPLATE_SOURCE = {
   name: 'official',
   type: 'official',
-  url: 'https://github.com/heguangyong/kse-spec-templates.git',
+  url: 'https://github.com/heguangyong/scene-capability-engine-templates.git',
   branch: 'main',
   enabled: true
 };
@@ -231,10 +231,10 @@ Please do not open public issues for security vulnerabilities.
 
 - Enable Discussions for Q&A
 - Create FAQ document
-- Link to main kse repository
+- Link to main sce repository
 
 ---
 
 **Setup Date**: 2025-01-31  
-**Repository**: https://github.com/heguangyong/kse-spec-templates  
-**Maintainer**: kse-team
+**Repository**: https://github.com/heguangyong/scene-capability-engine-templates  
+**Maintainer**: sce-team

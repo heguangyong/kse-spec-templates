@@ -3,7 +3,7 @@
 ## Repository Structure
 
 ```
-kse-spec-templates/
+scene-capability-engine-templates/
 ├── .github/
 │   ├── PULL_REQUEST_TEMPLATE.md
 │   └── ISSUE_TEMPLATE/
@@ -39,27 +39,27 @@ kse-spec-templates/
 
 ```bash
 # List all templates
-kse templates list
+sce templates list
 
 # Search templates
-kse templates search "api"
+sce templates search "api"
 
 # View template details
-kse templates show web-features/rest-api
+sce templates show web-features/rest-api
 
 # Create Spec from template
-kse spec create my-feature --template web-features/rest-api
+sce spec create my-feature --template web-features/rest-api
 
 # Update templates
-kse templates update
+sce templates update
 ```
 
 ### For Contributors
 
 ```bash
 # Fork and clone
-git clone https://github.com/YOUR_USERNAME/kse-spec-templates.git
-cd kse-spec-templates
+git clone https://github.com/YOUR_USERNAME/scene-capability-engine-templates.git
+cd scene-capability-engine-templates
 
 # Create new branch
 git checkout -b add-my-template
@@ -137,8 +137,8 @@ git push origin add-my-template
 ## Support
 
 - **Documentation**: See docs/ directory
-- **Issues**: https://github.com/heguangyong/kse-spec-templates/issues
-- **Main Project**: https://github.com/heguangyong/kiro-spec-engine
+- **Issues**: https://github.com/heguangyong/scene-capability-engine-templates/issues
+- **Main Project**: https://github.com/heguangyong/scene-capability-engine
 
 ---
 

@@ -26,8 +26,8 @@ This task list implements the Moqui domain extension. The approach is reuse-firs
 ## Phase 1: Discovery and Verification
 
 - [ ] 1. Verify Moqui asset reusability
-  - [ ] 1.1 Run `kse scene discover -t entities` and document entities relevant to {{DOMAIN}}
-  - [ ] 1.2 Run `kse scene discover -t services` and document services relevant to {{DOMAIN}}
+  - [ ] 1.1 Run `sce scene discover -t entities` and document entities relevant to {{DOMAIN}}
+  - [ ] 1.2 Run `sce scene discover -t services` and document services relevant to {{DOMAIN}}
   - [ ] 1.3 Test generic CRUD API for reused entities (e.g., `GET /api/v1/entities/WorkEffort?workEffortTypeEnumId=WetProject`)
   - [ ] 1.4 Test generic Service API for reused services (e.g., `POST /api/v1/services/mantle.work.WorkEffortServices.create#WorkEffort`)
   - [ ] 1.5 Document gaps: what domain needs are NOT covered by existing entities/services
@@ -48,7 +48,7 @@ This task list implements the Moqui domain extension. The approach is reuse-firs
   - [ ] 3.5 Test `PUT /api/v1/entities/{{NewEntity}}/{id}` — update works
   - [ ] 3.6 Test `DELETE /api/v1/entities/{{NewEntity}}/{id}` — delete works
   - [ ] 3.7 Test `GET /api/v1/entities/{{NewEntity}}/{id}/related/{relationship}` — related entities work
-  - [ ] 3.8 Verify new entities appear in `kse scene discover -t entities`
+  - [ ] 3.8 Verify new entities appear in `sce scene discover -t entities`
 
 ## Phase 3: Domain Business Logic (Only If Needed)
 
@@ -56,7 +56,7 @@ This task list implements the Moqui domain extension. The approach is reuse-firs
   - [ ] 4.1 Create Java service class for {{BUSINESS_OPERATION_1}} (complex logic beyond CRUD)
   - [ ] 4.2 Create service XML definition in `service/{{Domain}}Services.xml`
   - [ ] 4.3 Test service invocation via `POST /api/v1/services/{{serviceName}}`
-  - [ ] 4.4 Verify new services appear in `kse scene discover -t services`
+  - [ ] 4.4 Verify new services appear in `sce scene discover -t services`
 
 - [ ] 5. Implement business rules
   - [ ] 5.1 Create EECA rules in `entity/{{Domain}}.eecas.xml` for automatic validations
@@ -85,8 +85,8 @@ This task list implements the Moqui domain extension. The approach is reuse-firs
   - [ ] 8.3 Property: Business rule consistency — rules hold across random valid inputs
 
 - [ ] 9. Discovery verification
-  - [ ] 9.1 Run `kse scene discover -t entities` and verify all new entities appear
-  - [ ] 9.2 Run `kse scene discover -t services` and verify all new services appear
+  - [ ] 9.1 Run `sce scene discover -t entities` and verify all new entities appear
+  - [ ] 9.2 Run `sce scene discover -t services` and verify all new services appear
 
 ## Phase 6: Documentation and Seed Data
 

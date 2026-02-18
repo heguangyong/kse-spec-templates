@@ -50,6 +50,6 @@ kse_version: 1.40.0
 ## 验证闭环
 
 1. 执行质量基线脚本并成功产出报告。
-2. `kse status` 可看到本 Spec 任务推进。
-3. `kse docs validate --all` 保持合规。
+2. `sce status` 可看到本 Spec 任务推进。
+3. `sce docs validate --all` 保持合规。
 

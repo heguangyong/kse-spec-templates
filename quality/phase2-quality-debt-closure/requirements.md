@@ -68,5 +68,5 @@ kse_version: 1.40.0
 
 1. WHEN 完成本轮推进 THEN 系统 SHALL 更新本 Spec `tasks.md`。
 2. WHEN 会话结束 THEN 系统 SHALL 更新 `.kiro/steering/CURRENT_CONTEXT.md`。
-3. WHEN 收尾验证 THEN 系统 SHALL 至少执行 `kse status` 与 `kse docs validate --all`。
+3. WHEN 收尾验证 THEN 系统 SHALL 至少执行 `sce status` 与 `sce docs validate --all`。
 

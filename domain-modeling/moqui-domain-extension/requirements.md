@@ -49,8 +49,8 @@ This Spec extends Moqui's existing data model and REST API services to support {
 
 <!-- CRITICAL: Before defining requirements, discover what Moqui already provides -->
 <!-- Run these commands and document the results: -->
-<!-- kse scene discover -t entities → list relevant existing entities -->
-<!-- kse scene discover -t services → list relevant existing services -->
+<!-- sce scene discover -t entities → list relevant existing entities -->
+<!-- sce scene discover -t services → list relevant existing services -->
 
 ### Existing Moqui Entities (Reusable)
 
@@ -223,8 +223,8 @@ This Spec extends Moqui's existing data model and REST API services to support {
 
 ### API Consistency
 1. New domain endpoints SHALL follow the same response format as existing generic APIs
-2. New entities SHALL be discoverable via `kse scene discover -t entities`
-3. New services SHALL be discoverable via `kse scene discover -t services`
+2. New entities SHALL be discoverable via `sce scene discover -t entities`
+3. New services SHALL be discoverable via `sce scene discover -t services`
 
 ### Data Integrity
 1. Foreign keys to Moqui entities (WorkEffort, Party, Facility) SHALL enforce referential integrity

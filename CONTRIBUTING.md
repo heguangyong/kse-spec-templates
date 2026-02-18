@@ -1,4 +1,4 @@
-# Contributing to kse-spec-templates
+# Contributing to scene-capability-engine-templates
 
 Thank you for your interest in contributing templates! This guide will help you create high-quality templates that benefit the entire community.
 
@@ -227,7 +227,7 @@ If you have questions about contributing:
 
 ## 🙏 Thank You!
 
-Your contributions help the entire kse community build better software faster. We appreciate your time and effort!
+Your contributions help the entire sce community build better software faster. We appreciate your time and effort!
 
 ---
 

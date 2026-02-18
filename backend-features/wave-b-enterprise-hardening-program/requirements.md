@@ -1,4 +1,4 @@
-﻿---
+---
 name: wave-b-enterprise-hardening-program
 category: backend-features
 description: Template for Wave B Enterprise Hardening Program
@@ -62,7 +62,7 @@ kse_version: 1.47.7
 
 4.1 输出 `docs/scene.yaml`（非模板，包含真实边界）  
 4.2 输出 `docs/collaboration.json`（Master 类型、状态可追踪）  
-4.3 保证 `kse docs validate --all` 通过
+4.3 保证 `sce docs validate --all` 通过
 
 ---
 

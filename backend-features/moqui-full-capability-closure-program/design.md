@@ -111,6 +111,6 @@ kse_version: 1.47.7
 
 1. 已形成并批准 `62-01 ~ 62-06` 执行图谱
 2. 差距矩阵可追踪到能力项级，且 P0/P1 缺口清零
-3. 模板产物可被 `kse templates` 发现和复用
-4. `kse status --verbose`、`kse doctor --docs` 均通过
+3. 模板产物可被 `sce templates` 发现和复用
+4. `sce status --verbose`、`sce doctor --docs` 均通过
 5. `CURRENT_CONTEXT.md` 完整记录本轮结果与下一批计划

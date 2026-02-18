@@ -13,7 +13,7 @@ assignees: ''
 ## Template Information
 
 **Template ID**: `category/template-name`  
-**kse Version**: <!-- e.g., 1.16.0 -->  
+**sce Version**: <!-- e.g., 1.16.0 -->  
 **Operating System**: <!-- e.g., Windows 11, macOS 14, Ubuntu 22.04 -->
 
 ## Steps to Reproduce
