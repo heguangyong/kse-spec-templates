@@ -31,12 +31,11 @@ sce spec create my-feature --template backend-features/pure-restful-backend
 
 | Category | Description | Templates |
 |----------|-------------|-----------|
-| **web-features/** | Frontend and web application features | 10 |
-| **backend-features/** | Backend services and APIs | 22 |
-| **architecture/** | System architecture and design patterns | 1 |
-| **quality/** | Quality assurance and technical debt | 2 |
-| **domain-modeling/** | Business domain analysis and data modeling | 2 |
-
+| **web-features/** | Frontend and web application features | 48 |
+| **backend-features/** | Backend services and APIs | 60 |
+| **architecture/** | System architecture and design patterns | 9 |
+| **quality/** | Quality assurance and technical debt | 42 |
+| **domain-modeling/** | Business domain analysis and data modeling | 9 |
 ## 🎯 Available Templates
 
 | Template ID | Name | Difficulty | Tags | Use When... |
@@ -172,7 +171,7 @@ Thanks to all contributors who have shared their templates with the community!
 
 **Version**: 1.5.0  
 **Last Updated**: 2026-02-18  
-**Templates**: 37  
+**Templates**: 168  
 **Maintained by**: [sce-team](https://github.com/heguangyong/scene-capability-engine)
 
 
